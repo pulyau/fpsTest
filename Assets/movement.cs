@@ -24,6 +24,8 @@ public class movement : MonoBehaviour
         rb.MovePosition(transform.position + (transform.forward * Input.GetAxis("Vertical") * MoveSpeed*Time.deltaTime) + (transform.right * Input.GetAxis("Horizontal") * MoveSpeed*Time.deltaTime));
         if (Input.GetKeyDown("space"))
             rb.AddForce(transform.up * JumpForce*Time.deltaTime, ForceMode.Impulse);
+
+//test change
     }
 
 
