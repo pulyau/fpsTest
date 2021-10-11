@@ -26,6 +26,7 @@ public class movement : MonoBehaviour
             rb.AddForce(transform.up * JumpForce*Time.deltaTime, ForceMode.Impulse);
 
 //test change
+// test change 2 prosto tak
     }
 
 
